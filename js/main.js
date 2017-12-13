@@ -1,16 +1,10 @@
 'use strict';
 
+var luna=0;
+var i=2017;
 
-var treeHeight = parseInt(prompt('¿cuántos pisos tendrá tu árbol de Navidad?'));
-var treeDraw = '▲';
-var counter = '';
-
-
-for (var i = 0 ; i < treeHeight; i++) {
-for (var j = 0; j <= i; j++) {
-  counter = counter + treeDraw;
+while (i<2062) {
+luna++;
+i=(i+3);
+alert ("La "+ luna +"ª luna del cazador será en " + i);
 }
-counter = counter + '\n';
-}
-
-alert(counter);
